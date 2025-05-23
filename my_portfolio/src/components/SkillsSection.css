@@ -1,0 +1,63 @@
+.skills-section {
+  background: url("https://w0.peakpx.com/wallpaper/601/760/HD-wallpaper-apple-macbook-laptop-on-black-background-modern-technology-laptop-apple.jpg")
+    no-repeat center center/cover;
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+
+.skills-content {
+  background: rgba(0, 0, 0, 0.8); /* Glassy effect */
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(255, 204, 51, 0.3);
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffcc33;
+}
+
+.skills-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.skill-box {
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(255, 204, 51, 0.3);
+  transition: transform 0.3s;
+  width: 150px;
+  cursor: pointer; /* Click cursor */
+}
+
+.skill-box:hover {
+  transform: scale(1.05);
+}
+
+/* Click Effect */
+.click-effect:active {
+  transform: scale(0.9);
+  transition: 0.1s ease-in-out;
+}
+
+.skill-name {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffcc33;
+}

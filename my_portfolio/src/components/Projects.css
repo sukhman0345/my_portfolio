@@ -1,0 +1,129 @@
+/* 🔹 Projects Section - General Styling */
+.projects-section {
+  background: #000; /* Black background for a modern look */
+  color: white; /* White text for high contrast */
+  text-align: center; /* Center aligns text */
+  padding: 50px 0; /* Adds space at the top and bottom */
+}
+
+/* 🔹 Title Styling */
+.projects-title {
+  font-size: 2.5rem; /* Large font for heading */
+  font-weight: bold; /* Makes it stand out */
+  color: #ffcc33; /* Gold color for premium feel */
+}
+
+/* 🔹 Description Text */
+.projects-description {
+  font-size: 1.2rem; /* Slightly larger than normal text */
+  margin-bottom: 20px; /* Adds space below */
+  color: #bbb; /* Light gray text for readability */
+}
+
+/* 🔹 Tabs Container */
+.tabs {
+  display: flex; /* Aligns tabs in a row */
+  justify-content: center; /* Centers tabs */
+  gap: 20px; /* Adds spacing between buttons */
+  margin-bottom: 30px; /* Creates space below tabs */
+}
+
+/* 🔹 Tab Buttons */
+.tabs button {
+  padding: 12px 30px; /* Comfortable button padding */
+  border: none; /* Removes default border */
+  cursor: pointer; /* Changes cursor to pointer for click effect */
+  font-size: 1rem; /* Normal readable text size */
+  font-weight: bold; /* Bold text for emphasis */
+  border-radius: 25px; /* Rounded buttons */
+  transition: 0.3s; /* Smooth hover transition */
+  background: #222; /* Dark gray background */
+  color: white; /* White text */
+}
+
+/* 🔹 Active Tab - Highlight */
+.tabs .active {
+  background: linear-gradient(135deg, #6a11cb, #ffcc33); /* Gradient for active tab */
+}
+
+/* 🔹 Tab Content - Centered */
+.tab-content {
+  display: flex;
+  justify-content: center;
+}
+
+/* 🔹 Project Cards Container */
+.projects-list {
+  display: flex; /* Displays projects in a row */
+  gap: 20px; /* Adds space between projects */
+  flex-wrap: wrap; /* Makes it responsive */
+  justify-content: center; /* Centers the projects */
+}
+
+/* 🔹 Individual Project Card */
+.project-card {
+  background: #111; /* Dark gray background */
+  padding: 20px; /* Adds spacing inside the card */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Centers content */
+  width: 280px; /* Fixed width for uniformity */
+  transition: transform 0.3s; /* Smooth scaling effect */
+  box-shadow: 0 4px 10px rgba(255, 204, 51, 0.3); /* Soft golden shadow */
+}
+
+/* 🔹 Hover Effect for Project Cards */
+.project-card:hover {
+  transform: scale(1.05); /* Slightly enlarges the card on hover */
+}
+
+/* 🔹 Project Card Image */
+.project-card img {
+  width: 100%; /* Ensures image fills the card width */
+  border-radius: 10px; /* Rounded corners for smooth design */
+}
+
+/* 🔹 Project Title */
+.project-card h3 {
+  margin-top: 38px; /* Adds spacing above title */
+  color: #ffcc33; /* Gold color for titles */
+}
+
+/* 🔹 Project Description */
+.project-card p {
+  font-size: 0.9rem; /* Slightly smaller text */
+  color: #bbb; /* Light gray text for readability */
+}
+
+/* 🔹 Placeholder Styling for Tab 2 & 3 */
+.tab-placeholder {
+  background: #111; /* Dark background to match theme */
+  padding: 30px; /* Adds internal spacing */
+  border-radius: 10px; /* Rounded edges */
+  width: 60%; /* Controls width */
+}
+
+/* style for the LERARN MORE BUTTON */
+/* 🔹 Button Styling Over Image */
+.project-card {
+  position: relative; /* Enable absolute positioning for children */
+}
+
+.project-btn {
+  position: absolute; /* Overlay the button */
+  bottom: 60%; /* Position the button vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, 50%); /* Adjust for perfect centering */
+  padding: 10px 20px; /* Button padding */
+  background: linear-gradient(135deg, #6a11cb, #ffcc33); /* Button gradient */
+  color: white; /* Button text color */
+  border: none; /* Remove button border */
+  border-radius: 20px; /* Rounded button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-weight: bold; /* Bold text for emphasis */
+  transition: 0.3s; /* Smooth hover transition */
+}
+
+.project-btn:hover {
+  background: linear-gradient(135deg, #ffcc33, #6a11cb); /* Reverse gradient on hover */
+  transform: translate(-50%, 50%) scale(1.1); /* Slightly enlarge on hover */
+}
